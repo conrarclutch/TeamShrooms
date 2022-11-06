@@ -45,6 +45,13 @@ public class MainGui {
         frame.pack();
         frame.setVisible(true);
     }
+    public static void showProgressGUI(JFrame frame) {
+    	progressGUI progress = new progressGUI(frame);
+        frame.getContentPane().add(progress);
+        frame.pack();
+        frame.setVisible(true);
+    }
+	
 
 
 
